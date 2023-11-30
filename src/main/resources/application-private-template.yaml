@@ -1,0 +1,16 @@
+# copy this file into `application-private.yaml` and set values
+
+juso-go-kr:
+  addrlink:
+    addr-link-api:
+      confm-key: ...
+      wiretap-http-client: true
+    addr-eng-api:
+      confm-key: ...
+      wiretap-http-client: true
+    addr-detail-api:
+      confm-key: ...
+      wiretap-http-client: true
+    addr-coord-api:
+      confm-key: ...
+      wiretap-http-client: true
