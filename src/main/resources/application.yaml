@@ -12,9 +12,11 @@ management:
 #          - swagger-ui
 
 spring:
-  profiles:
-    group:
-      default: private
+  config:
+    import: application-private.yaml
+#  profiles:
+#    group:
+#      default: private
 
 springdoc:
   #  use-management-port: true
@@ -24,10 +26,10 @@ springdoc:
 #    path: swagger-ui.html
 
 # ----------------------------------------------------------------------------------------------------------------------
----
-spring:
-  config:
-    import: application-private.yaml
-  profiles:
-    active:
-      - private
+#---
+#spring:
+#  config:
+#    import: application-private.yaml
+#  profiles:
+#    active:
+#      - private
